@@ -199,6 +199,7 @@ footer {
     }
         .navbar a {
             font-size: 9px;
+            margin: 1px;
         }
     
     .servicii .grid-container {
@@ -227,5 +228,13 @@ footer {
             margin-bottom: 0;
             margin-top: 1rem;
         }
+    .grid-container {
+        width: 90%;
+    }
+
+    #Clienti {
+        width: 90%;
+    }
+    
 }
 
