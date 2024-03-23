@@ -7,6 +7,7 @@
 
         <link rel="stylesheet" href="/Frontend/style.css">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -18,7 +19,6 @@
             <img src="/Media/L1.webp" alt="Black Box Production Logo">
 
             <nav class="navbar">
-                <hr width="80rem">
 
                 <a class="nav-link" href="#">ACASĂ</a>
                 <a class="nav-link" href="#serv-inc">SERVICII ȘI ÎNCHIRIERE ECHIPAMENT</a>
@@ -26,30 +26,37 @@
                 <a class="nav-link" href="#Clienti">CLIENȚI</a>
                 <a class="nav-link" href="#contact">CONTACT</a>
 
-                <hr width="80rem">
             </nav>
         </header>
 
-        <section id="Hero"> <!-- HERO < -->
+        <section id="Hero" class="width-adjust"> <!-- HERO < -->
             <div class="hero-content">
                 <img src="/Media/1.webp" alt="Black box hero" srcset="">
-                <p>În spatele fiecărui concert extraordinar stă o companie de producție de excepție. Specializarea noastră constă în susținere - susținerea viziunii tale și transformarea viselor în realitate prin intermediul viziunii și sunetului. Când vine vorba de iluminat pentru concerte, pereți LED, sisteme de sunet, inginerie audio, design de iluminare, schele și scene, video și tot ceea ce presupune organizarea unui concert. <br><br> Suntem mândri că lucrăm atât cu evenimentele mari şi cu cele mici - pentru că viziunea ta merită să fie realizată.</p>
+                <p>În spatele fiecărui concert extraordinar stă o companie de producție de excepție. 
+                    Specializarea noastră constă în susținerea viziunii tale și transformarea viselor 
+                    în realitate prin intermediul designului vizual și al sunetului. Când vine vorba de 
+                    un eveniment artistic, ecrane LED, sisteme de sunet, inginerie audio, lighting design, 
+                    schele și scene, video și tot ceea ce presupune organizarea unui eveniment. <br><br> 
+                    Suntem mândri că lucrăm atât cu evenimentele mari şi cu cele mici pentru că viziunea 
+                    ta merită să fie realizată.
+                </p>
             </div>
         </section> <!-- HERO > -->
 
-        <section id="serv-inc"> <!-- SERVICII SI INCHIRIERI < -->
+        <section id="serv-inc" class="width-adjust"> <!-- SERVICII SI INCHIRIERI < -->
             <div class="servicii">
-                <div class="grid-container">
+                <div class="grid">
                     <div>
                         <img src="/Media/2.webp" alt="" srcset="" class="">
                     </div>
                     <div>
                         <h1>Spectacolele de lumină la concerte și festivaluri sunt specialitatea noastră.</h1>
-                        <p>Lighting designerii noștri pot simți și anticipa perfect spectacolul în coordonare cu muzica. Ne dedicăm pasiunii pentru artele vizuale.</p>
+                        <p>Lighting designerii noștri pot simți și anticipa perfect spectacolul în coordonare cu muzica. 
+                            Ne dedicăm pasiunii pentru artele vizuale.</p>
                         <p>Serviciile noastre de iluminat pentru concerte includ:</p>
                         <ul>
-                            <li>Design și închiriere de riguri de iluminare pentru festivaluri</li>
-                            <li>Programare și operare a iluminatului</li>
+                            <li>Design și închiriere de echipamente de iluminat</li>
+                            <li>Programare și operare a sistemului de iluminat</li>
                             <li>Design și închiriere de lasere</li>
                             <li>Mapping de proiecție</li>
                             <li>Închiriere de ecrane LED</li>
@@ -60,12 +67,16 @@
                 </div>
             </div>    
             <div class="servicii">
-                <div class="grid-container">
+                <div class="grid change-direction">
                     
                     <div>
                         <h1>Închiriere sisteme de sunet de ultimă generație</h1>
-                        <p>De la muzică pop la EDM, la muzică country și rock, expertiza noastră în audio este demonstrată în peste 100 de ani de experiență colectivă în industrie. Inginerii noștri de sunet înțeleg că acustica fiecărei încăperi este diferită - și fiecare sistem de sunet necesită o atenție specială și iubire.</p>
-                        <p>Serviciile noastre de sunet pentru concerte includ:</p>
+                        <p>De la concertre de muzică, la arte performative, evenimente private, 
+                            expertiza noastră în sonorizări este demonstrată în peste 100 de ani 
+                            de experiență colectivă în industrie. Inginerii noștri de sunet 
+                            înțeleg că acustica fiecărei încăperi este diferită și fiecare 
+                            sistem de sunet necesită o atenție specială și dedicare.</p>
+                        <p>Serviciile noastre de sonorizare includ:</p>
                         <ul>
                             <li>Închiriere sisteme de sunet portabile</li>
                             <li>Închiriere line array</li>
@@ -85,8 +96,8 @@
             </div>
         </section>        <!-- SERVICII SI INCHIRIERI > -->
 
-        <section id="collage">  <!-- PORTOFOLIU < -->
-            <h1>Portfoliu</h1>
+        <section id="collage" class="width-adjust">  <!-- PORTOFOLIU < -->
+            <h1>Portofoliu</h1>
             <p></p>
             <div class="collage-container">
                 <div>
@@ -106,11 +117,11 @@
             </div>
         </section>  <!-- PORTOFOLIU > -->
 
-        <section id="Clienti">  <!-- CLIENTI < -->
-            <h1>Sunt clienții noștri:</h1>
+        <section id="Clienti" class="width-adjust">  <!-- CLIENTI < -->
+            <h1>Clienții noștri:</h1>
 
             <div class="collage-container">
-                <div class="group">
+                <div>
                     <img src="/Media/Clienti/4x4.webp" alt="4x4" srcset="">
                     <img src="/Media/Clienti/Asociatia_Art_Cord.webp" alt="Asociatia_Art_Cord" srcset="">
                     <img src="/Media/Clienti/Khetame-comunitati-impreuna.webp" alt="Khetame" srcset="">                    
@@ -153,16 +164,16 @@
                     <img src="/Media/Clienti/spot.webp" alt="Teatrul_National_Lucian_Blaga" srcset=""> 
                     <img src="/Media/Clienti/teatrul_national_aureliu_manea.webp" alt="reactor" srcset="">  
                     <img src="/Media/Clienti/teka_alapitvany.webp" alt="m" srcset="">  
-                    <img src="/Media/Clienti/varoterem.webp" alt="Teatrul_National_Lucian_Blaga" srcset=""> 
+                    <img src="/Media/Clienti/varoterem.webp" alt="Teatrul_National_Lucian_Blaga" srcset="">  
                 </div>
-            </div>            
+            </div>          
         </section>  <!-- CLIENTI > -->
 
-        <section id="contact">    <!-- CONTACT < --> 
+        <section id="contact" class="width-adjust">    <!-- CONTACT < --> 
             <h1>Contact</h1>
             <div class="address">
-                <a href="mailto:contact@blackboxproductions.ro">e-mail: contact@blackboxproductions.ro</a><br>
-                <a href="tel:+40756687544">mobil/whatsapp: 0756 687 544</a>
+                <a href="mailto:contact@blackboxproductions.ro"><i class="fa fa-envelope-o"></i> contact@blackboxproductions.ro</a><br>
+                <a href="tel:+40756687544"><i class="fa fa-whatsapp"></i> / <i class="fa fa-phone"></i> 0756 687 544</a>               
             </div>
         </section>   <!-- CONTACT > -->
 
@@ -171,10 +182,9 @@
         <script src="//embed.typeform.com/next/embed.js"></script>
         <!--  FORM  > -->
 
-        <footer>
-            <p style="color: rgba(128, 128, 128, 0.475);">&copy BlackBox Productions 2024</p>
-        
-<a href="https://www.bif-pfa.netlify.app" style="color: rgba(128, 128, 128, 0.475); text-decoration: none;">
-Created by BIF</a>        </footer>
+        <footer class="width-adjust">
+            <p>&copy BlackBox Productions 2024</p>        
+            <p><a _blank href="https://bif-pfa.netlify.app">Created by BIF</a></p>
+        </footer>
   </body>
 </html>
