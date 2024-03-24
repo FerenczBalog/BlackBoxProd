@@ -181,12 +181,13 @@ footer {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    color: rgba(128, 128, 128, 0.475); ;
+    color: rgba(128, 128, 128, 0.475);
 }
     footer a{
         color: rgba(128, 128, 128, 0.475); 
         text-decoration: none;
     }
+
 /*  Footer > */
 
 
